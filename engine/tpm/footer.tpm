@@ -1,0 +1,6 @@
+ <!-- jQuery -->
+        <script src="<?php echo $rutaJs; ?>/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="<?php echo $rutaJs; ?>/bootstrap.min.js"></script>
+    </body>
+</html>
