@@ -12,5 +12,24 @@
     </head>
     <body>
 
+    <header>
+        <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse" role="navigation">
+            <a class="navbar-brand" href="#">MENU</a>
+            <ul class="nav navbar-nav">
+                <li >
+                    <a href="index.php">Registrar Nuevo Equipo</a>
+                </li>
+                <li>
+                    <a href="listado.php">Ver Listado de Equipos</a>
+                </li>
+            </ul>
+        </nav>
+            <div id="logo">
+                
+            </div>
+        </div>
+    </header>
+
 
        

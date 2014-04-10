@@ -27,7 +27,8 @@
             )
             {
             
-                 echo "<h3>UPSSSS...</h3><p>Olvidaste llenar campo. <del>Cabeza de Huevo</del></p> :p ";
+                echo "<h3>UPSSSS...</h3><p>Olvidaste llenar campo. <del>Cabeza de Huevo</del> :D</p>";
+                include("../../errorcampo.php");
             
             }else{
 

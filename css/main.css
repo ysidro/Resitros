@@ -1,16 +1,26 @@
 body{
-    background: #000;
+    background: #000 url(../images/fondo.jpg) center center no-repeat;
     color: #fff;
 }
 input[type="text"]{
-    background: #1a191a;
+    background: #2a1f87;
     border:solid 1px #23449f;
 }
 #newTeam{
     float: none !important;
-    margin: 20px auto 50px;
+    margin: 20px auto 100px;
+}
+#logo{
+    background: url(../images/logo.png) center center no-repeat;
+    background-size:1000px;
+    height: 490px;
+    margin-top: -50px
 }
 .equipo{
+    background: #2a2a29;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     display: block;
     overflow: hidden;
 }
@@ -18,15 +28,24 @@ input[type="text"]{
     color: #b7c0be
 }
 .equipo h5{
-    color: #5769c0
+    color: #5769c0;
+    font-size: 1.2em;
+
 }
 .equipo .col-sm-3{
     border:solid 1px #444;
-    padding: 5px
+    padding: 5px;
+    text-align:center;
 }
 .ident{
-    background: #0e52b2;
+    background: #b82020;
     display: block;
-    margin: 10px 0px;
+    margin: 0px 0px 10px;
     overflow: hidden;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.btn-lol{
+       background: #b82020;
+       color: #fff;
 }
