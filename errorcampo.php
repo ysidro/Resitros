@@ -5,12 +5,23 @@
     include("../tpm/header.tpm"); 
 ?>
 
-    
+    <style>
+            body{
+    background: #000 url(../../images/fondo.jpg) center center no-repeat;
+    color: #fff;
+}
+#logo{
+    background: url(../../images/logo.png) center center no-repeat;
+    background-size:1000px;
+    height: 490px;
+    margin-top: -50px
+}
+    </style>
 
         <section>
             <div class="container">
                 <div id="newTeam" class="col-xs-12">
-                <form action="engine/sistem/inserNewData.php" method="post" role="form">
+                <form action="inserNewData.php" method="post" role="form">
                     <div class="form-group col-sm-6 ">
                         <label for="nameTeam">Nombre del Equipo</label>
                         <input type="text" name="nameTeam" id="nameTeam" class="form-control" value="<?php if(isset($nameTeam)){ echo $nameTeam; } ?>" placeholder="Ingresar Nombre del Equipo">
