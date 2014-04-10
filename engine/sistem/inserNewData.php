@@ -32,25 +32,28 @@
             
             }else{
 
-                $x   =  dbConect();
-                $sql =  "INSERT INTO gameTeams (nameTeam, labelTeam, capitanTeam, adCarryTeam, apCarryTeam, topTeam, supportTeam, junglerTeam, sustitutoTeam, sustituto2Team)
-                    
-                   VALUES('". $nameTeam . "','"
-                            . $labelTeam . "','"
-                            . $capitanTeam . "','"
-                            . $adCarryTeam . "','"
-                            . $apCarryTeam . "','"
-                            . $topTeam . "','"
-                            . $supportTeam . "','"
-                            . $junglerTeam . "','"
-                            . $sustitutoTeam . "','"
-                            . $sustituto2Team . "')";
+                if(){}else{
 
-                    $query = mysql_query($sql);
-                    if($query){
-                        header("location: ../../index.php");
-                    }else{
-                        echo "EPIC FAIL.." . mysql_error();
-                    }
+                    $x   =  dbConect();
+                    $sql =  "INSERT INTO gameTeams (nameTeam, labelTeam, capitanTeam, adCarryTeam, apCarryTeam, topTeam, supportTeam, junglerTeam, sustitutoTeam, sustituto2Team)
+                        
+                       VALUES('". $nameTeam . "','"
+                                . $labelTeam . "','"
+                                . $capitanTeam . "','"
+                                . $adCarryTeam . "','"
+                                . $apCarryTeam . "','"
+                                . $topTeam . "','"
+                                . $supportTeam . "','"
+                                . $junglerTeam . "','"
+                                . $sustitutoTeam . "','"
+                                . $sustituto2Team . "')";
+
+                        $query = mysql_query($sql);
+                        if($query){
+                            header("location: ../../index.php");
+                        }else{
+                            echo "EPIC FAIL.." . mysql_error();
+                        }
+                }
             }
  ?>

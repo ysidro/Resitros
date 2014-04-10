@@ -6,9 +6,12 @@ input[type="text"]{
     background: #2a1f87;
     border:solid 1px #23449f;
 }
+section {
+    margin-bottom: 100px;
+}
 #newTeam{
     float: none !important;
-    margin: 20px auto 100px;
+    margin: 20px auto ;
 }
 #logo{
     background: url(../images/logo.png) center center no-repeat;

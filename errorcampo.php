@@ -24,7 +24,7 @@
                     </div>
                     <div class="form-group col-sm-6">
                         <label for="adCarryTeam">AD Carry</label>
-                        <input type="text" name="adCarryTeam" id="adCarryTeam" class="form-control" value="<?php if(isset($adCarryTeam )){ echo $adCarryTeam;} ?>" placeholder="Ingresar Nombre del tirador">
+                        <input type="text" name="adCarryTeam" id="adCarryTeam" class="form-control" value="<?php if(isset($adCarryTeam )){ echo  $adCarryTeam;} ?>" placeholder="Ingresar Nombre del tirador">
                     </div>
                     <div class="form-group col-sm-6">
                         <label for="apCarryTeam">AP Carry</label>
