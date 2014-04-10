@@ -6,7 +6,7 @@ Agregar team completo
 
     Valida que los campos importantes no esten vasios
     Mustra el listado de los equipos existentes
-
+    Posivilidad de borrar un equipo
 Instalación 
 
     Descargar el repositorio
@@ -18,4 +18,3 @@ Por hacer
 
     Validar que no se repitan los nombres
     posiblidad de editar los equipos
-    Posivilidad de borrar un equipo
