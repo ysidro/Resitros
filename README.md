@@ -17,4 +17,4 @@ Instalación
 Por hacer
 
     Validar que no se repitan los nombres
-    posiblidad de editar los equipos
+    posibilidad de editar los equipos
