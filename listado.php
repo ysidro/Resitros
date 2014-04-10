@@ -1,6 +1,7 @@
 <?php     
     $rutaStyle = "css";
     $rutaJs    = "js";
+    $rutalink  = "";
     require("engine/sistem/engine.php");
     include("engine/tpm/header.tpm"); 
 ?>

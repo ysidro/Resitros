@@ -32,7 +32,7 @@
             
             }else{
 
-                if(){}else{
+
 
                     $x   =  dbConect();
                     $sql =  "INSERT INTO gameTeams (nameTeam, labelTeam, capitanTeam, adCarryTeam, apCarryTeam, topTeam, supportTeam, junglerTeam, sustitutoTeam, sustituto2Team)
@@ -54,6 +54,6 @@
                         }else{
                             echo "EPIC FAIL.." . mysql_error();
                         }
-                }
+                
             }
  ?>
